@@ -11,3 +11,11 @@ tag(): line_commands
 action(user.ide_toggle_comment):
   key(ctrl-k)
   key(ctrl-c)
+
+action(user.ide_fix_imports):
+  key(alt-enter)
+
+property:
+  insert('prop')
+  sleep(100ms)
+  key(tab)

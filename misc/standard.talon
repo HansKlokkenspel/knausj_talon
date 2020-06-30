@@ -35,7 +35,7 @@ args:
 	insert("[]") 
 	key(left)
 empty array: "[]"
-list in it: fsdfsdf
+list in it:
 	insert("[]") 
 	key(left)
 (dickt in it | inside bracket | in bracket): 
@@ -75,5 +75,4 @@ wipe: key(backspace)
 	key(left)
 funny: "ha ha"
 #menu: key(alt)
-
-
+boom: key(enter)
