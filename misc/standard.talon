@@ -35,7 +35,7 @@ args:
 	insert("[]") 
 	key(left)
 empty array: "[]"
-list in it: 
+list in it: fsdfsdf
 	insert("[]") 
 	key(left)
 (dickt in it | inside bracket | in bracket): 
@@ -54,11 +54,11 @@ zoom [in]: edit.zoom_in()
 zoom out: edit.zoom_out()
 (page | scroll) up: key(pgup)
 (page | scroll) down: key(pgdown)
-copy that: edit.copy()
-cut that: edit.cut()
-paste that: edit.paste()
-paste match: edit.paste_match_style()
-file save: edit.save()
+copy that | copying: edit.copy()
+cut that | cutting: edit.cut()
+paste that | pasty: edit.paste()
+paste match | pasty match: edit.paste_match_style()
+file save | saving: edit.save()
 #menu help: key(F1)
 #spotlight: key(super)
 undo that | undoing: edit.undo()

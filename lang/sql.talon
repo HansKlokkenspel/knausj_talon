@@ -1,5 +1,5 @@
 app: DataGrip
-
+app:Ssms.exe
 -
 select: "SELECT "
 star: "*"
