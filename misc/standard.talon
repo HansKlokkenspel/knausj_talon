@@ -76,3 +76,5 @@ wipe: key(backspace)
 funny: "ha ha"
 #menu: key(alt)
 boom: key(enter)
+all down: key(alt:down)
+all up: key(alt:up)

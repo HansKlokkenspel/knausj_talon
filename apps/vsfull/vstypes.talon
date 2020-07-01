@@ -28,3 +28,6 @@ typing time:
 
 typing time offset:
     insert('DateTimeOffset')
+
+typing id:
+    insert('Guid')

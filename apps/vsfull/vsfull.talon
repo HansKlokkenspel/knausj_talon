@@ -19,3 +19,35 @@ property:
   insert('prop')
   sleep(100ms)
   key(tab)
+
+built|build solution:
+  key(ctrl-shift-b)
+
+override function:
+  insert('override')
+  sleep(100ms)
+  key(tab)
+
+action(user.ide_intellisense_suggest_parameters):
+  key(ctrl-space)
+
+action(user.ide_find_everywhere):
+  key(ctrl-t)
+
+suck potential:
+  key(ctrl-.)
+
+double red:
+  key(ctrl:down)
+  key(r)
+  key(r)
+  key(ctrl:up)
+
+action(user.ide_step_over):
+  key(f10)
+
+action(user.ide_step_into):
+  key(f11)
+
+action(user.ide_continue):
+  key(f5)

@@ -27,7 +27,7 @@ def modifiers(m) -> str:
 def arrow(m) -> str:
     "One directional arrow key"
 
-@mod.capture
+@mod.capturee
 def arrows(m) -> str:
     "One or more arrows separate by a space"
 
@@ -123,7 +123,7 @@ simple_keys = [
 ]
 
 alternate_keys = {
-    'delete': 'backspace', 
+    'delete': 'backspace',
     #'junk': 'backspace',
     'forward delete': 'delete',
 }
