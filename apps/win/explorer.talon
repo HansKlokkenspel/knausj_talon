@@ -13,3 +13,8 @@ action(user.file_manager_open_parent):
 ^go <user.letter>$: user.file_manager_open_volume("{letter}:")
 go app data: user.file_manager_open_directory("%AppData%")
 go talon: user.file_manager_open_directory("%AppData%\Talon")
+[focus|sect|select] address bar: key(ctrl-l)
+destroy: 
+    key(shift:down)
+    key(del)
+    key(shift:up)

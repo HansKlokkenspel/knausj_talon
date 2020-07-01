@@ -51,3 +51,10 @@ action(user.ide_step_into):
 
 action(user.ide_continue):
   key(f5)
+
+(search | find) solution:
+  key(ctrl:down)
+  key(shift:down)
+  key(f)
+  key(ctrl:up)
+  key(shift:up)

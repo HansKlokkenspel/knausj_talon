@@ -48,42 +48,42 @@ go page up:
     edit.page_up()
 
 # selecting
-select line:
+select|sect line:
     edit.line_start()
     edit.extend_line_end()
 
-select all:
+select|sect all:
     edit.select_all()
 
 
-select left:
+select|sect left:
     edit.extend_left()
 
-select right:
+select|sect right:
     edit.extend_right()
 
-select up:
+select|sect up:
     edit.extend_line_up()
 
-select down:
+select|sect down:
     edit.extend_line_down()
 
-select word left:
+select|sect word left:
     edit.extend_word_left()
 
-select word right:
+select|sect word right:
     edit.extend_word_right()
 
-select way left:
+select|sect way left:
     edit.extend_line_start()
 
-select way right:
+select|sect way right:
     edit.extend_line_end()
 
-select way up:
+select|sect way up:
     edit.extend_file_start()
 
-select way down:
+select|sect way down:
     edit.extend_file_end()
 
 # editing
