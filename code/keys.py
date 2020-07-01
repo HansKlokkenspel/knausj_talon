@@ -27,7 +27,7 @@ def modifiers(m) -> str:
 def arrow(m) -> str:
     "One directional arrow key"
 
-@mod.capturee
+@mod.capture
 def arrows(m) -> str:
     "One or more arrows separate by a space"
 
