@@ -31,3 +31,15 @@ typing time offset:
 
 typing id:
     insert('Guid')
+
+(call|coal) base:
+    insert('base()')
+
+implement base:
+    insert(': base()')
+
+a sink:
+	insert('async')
+
+public:
+    insert('public')

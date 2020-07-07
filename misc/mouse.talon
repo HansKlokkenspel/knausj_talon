@@ -40,3 +40,7 @@ slick:
 	key(shift:down)
 	mouse_click()
 	key(shift:up)
+cricket:
+	key(ctrl:down)
+	mouse_click()
+	key(ctrl:up)

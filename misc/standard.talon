@@ -56,8 +56,8 @@ zoom out: edit.zoom_out()
 (page | scroll) down: key(pgdown)
 copy that | copying: edit.copy()
 cut that | cutting: edit.cut()
-paste that | pasty: edit.paste()
-paste match | pasty match: edit.paste_match_style()
+paste that | pasty | basting | basty: edit.paste()
+paste match | (pasty basting | basty) match: edit.paste_match_style()
 file save | saving: edit.save()
 #menu help: key(F1)
 #spotlight: key(super)
@@ -78,3 +78,9 @@ funny: "ha ha"
 boom: key(enter)
 all down: key(alt:down)
 all up: key(alt:up)
+dot net core:
+	insert('.net core ')
+sequel:
+	insert('sql ')
+cap sharp:
+	insert('c# ')

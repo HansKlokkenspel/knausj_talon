@@ -3,7 +3,7 @@ from typing import Set
 from talon import Module, Context, actions
 import sys
     
-default_alphabet = 'air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip'.split(' ')
+default_alphabet = 'air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge fish whale plex yank zip'.split(' ')
 letters_string = 'abcdefghijklmnopqrstuvwxyz'
 
 default_digits = 'zero one two three four five six seven eight nine'.split(' ')
@@ -76,7 +76,7 @@ ctx.lists['self.letter'] = dict(zip(default_alphabet, letters_string))
 ctx.lists['self.symbol'] = {
     'back tick': '`', '`':'`',
     'comma': ',', ',': ',',
-    'dot': '.', 'period': '.',
+    'dot': '.', 'period': '.', 'punt': '.',
     'semi': ';', 'semicolon': ';',
     'quote': "'",
     'L square': '[', 'left square': '[', 'square': '[',
@@ -126,6 +126,8 @@ alternate_keys = {
     'delete': 'backspace',
     #'junk': 'backspace',
     'forward delete': 'delete',
+    'tab': 'tab', 'tabloid': 'tab',
+    'gap': 'space'
 }
 keys = {k: k for k in simple_keys}
 keys.update(alternate_keys)
