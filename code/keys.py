@@ -91,7 +91,7 @@ ctx.lists['self.symbol'] = {
     'bang': '!', 'exclamation point': '!', 
     'dollar': '$', 'dollar sign': '$',
     'down score': '_', 'under score': '_',
-    'colon': ':',
+    'stack punt': ':', 'colon': ':',
     'paren': '(', 'L paren': '(', 'left paren': '(',
     'R paren': ')', 'right paren': ')',
     'brace': '{', 'left brace': '{',
@@ -126,8 +126,7 @@ alternate_keys = {
     'delete': 'backspace',
     #'junk': 'backspace',
     'forward delete': 'delete',
-    'tab': 'tab', 'tabloid': 'tab',
-    'gap': 'space'
+    'tab': 'tab', 'tabloid': 'tab'
 }
 keys = {k: k for k in simple_keys}
 keys.update(alternate_keys)

@@ -87,7 +87,7 @@ action(user.ide_go_forward):
   key(ctrl:up)
   key(shift:up)
 
-variable:
+[new] variable:
   insert('var  = ')
   key(left)
   key(left)
@@ -122,18 +122,27 @@ go to implementation:
   key(alt:up)
   key(shift:up)
 
-
-implements <user.format_text>:
-  insert(': I')
+extends <user.format_text>:
+  insert(': ')
   insert(user.format_text)
 
-show parameters:
+implements <user.format_text>:
+  insert(': ')
+  insert(user.format_text)
+
+show (parameters|param):
   key(ctrl-p)
 
 await this:
   insert('await ')
   edit.line_end()
   insert('.ConfigureAwait(false);')
+
+open function:
+  edit.line_end()
+  insert('{}')
+  key(left)
+  key(enter)
 
 return:
  insert('return ')
@@ -155,3 +164,34 @@ close all but this:
 
 manage nuget:
   key(ctrl-shift-alt-m)
+
+run tests:
+  key(ctrl-u)
+  key(ctrl-r)
+
+debug tests:
+  key(ctrl-u)
+  key(ctrl-d)
+
+new if:
+  insert('if(){}')
+  key(up)
+  key(up)
+  key(right)
+  key(right)
+  key(right)
+
+new else:
+  insert('else{}')
+  key(up)
+  key(enter)
+
+rename:
+  key(f2)
+
+open in explorer:
+  key(ctrl-shift-alt-=)
+
+reformat:
+  key(ctrl-k)
+  key(ctrl-d)

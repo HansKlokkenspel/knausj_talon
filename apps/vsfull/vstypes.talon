@@ -10,36 +10,86 @@ generic:
 enumeration:
     insert('enum')
 
-typing list:
-    insert('List<>')
-    key(left)
+[typing] list:
+    insert('List<> ')
 
-bingo:
-    insert('bool')
+[typing] bingo:
+    insert('bool ')
 
-typing number:
-    insert('int')
+[typing] number:
+    insert('int ')
 
-panties:
-    insert('string')
+[typing] panties:
+    insert('string ')
 
-typing time:
-    insert('DateTime')
+[typing] time:
+    insert('DateTime ')
 
-typing time offset:
-    insert('DateTimeOffset')
+[typing] time offset:
+    insert('DateTimeOffset ')
 
-typing id:
-    insert('Guid')
+[typing] id:
+    insert('Guid ')
 
 (call|coal) base:
     insert('base()')
 
-implement base:
-    insert(': base()')
-
 a sink:
-	insert('async')
+	insert('async ')
 
 public:
-    insert('public')
+    insert('public ')
+
+new:
+    insert('new ')
+
+secret:
+    insert('private ')
+
+static:
+    insert('static ')
+
+internal:
+    insert('internal ')
+
+protected:
+    insert('protected ')
+
+open div:
+    insert('<div>')
+
+void:
+    insert('void ')
+
+abstract:
+    insert('abstract ')
+
+[typing] task:
+    insert('Task ')
+
+[typing] generic task:
+    insert('Task<> ')
+
+get set:
+    insert('{}')
+    key(left)
+    insert(' get; set;')
+
+where:
+    insert('where ')
+
+class:
+    insert('class ')
+
+this:
+    insert('this ')
+
+assign true:
+    insert(' = true')
+
+assign false:
+    insert(' = false')
+
+assign <user.format_text>:
+    insert(' = ')
+    insert(user.format_text)

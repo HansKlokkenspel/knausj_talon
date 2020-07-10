@@ -35,7 +35,7 @@ wheel right: mouse_scroll(0, 40)
 wheel tiny right: mouse_scroll(0, 20)
 curse yes: user.mouse_show_cursor()
 curse no: user.mouse_hide_cursor()
-crag: user.mouse_drag()
+drag: user.mouse_drag()
 slick:
 	key(shift:down)
 	mouse_click()

@@ -78,9 +78,3 @@ funny: "ha ha"
 boom: key(enter)
 all down: key(alt:down)
 all up: key(alt:up)
-dot net core:
-	insert('.net core ')
-sequel:
-	insert('sql ')
-cap sharp:
-	insert('c# ')

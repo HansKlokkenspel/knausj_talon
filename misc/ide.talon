@@ -3,7 +3,7 @@ tag: ide
 refactor: user.ide_refactor()
 
 #Intellisense, Rich language support
-suggest | suck (parameters | (args | arguments)): user.ide_intellisense_suggest_parameters()
+suggest | suck ((parameters|param) | (args | arguments)): user.ide_intellisense_suggest_parameters()
 complete: code.complete()
 perfect: user.ide_perfect()
 smart: user.ide_smart()

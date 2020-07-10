@@ -8,8 +8,19 @@ simple_vocabulary = [
     "VPN",
     "DNS",
     "minecraft",
-    "blazor",
-    "nuget"
+    "nuget",
+    "nodatime",
+    "xunit",
+    "github",
+    "markdown",
+    "guid",
+    "div",
+    "edit",
+    "id",
+    "null",
+    "async",
+    "set", 
+    "param"
 ]
 
 mapping_vocabulary = {
