@@ -4,3 +4,6 @@ and code.language: razor
 -
 inject:
     insert('@inject ')
+
+using:
+    insert('@using ')

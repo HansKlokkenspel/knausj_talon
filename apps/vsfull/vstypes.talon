@@ -55,9 +55,6 @@ internal:
 protected:
     insert('protected ')
 
-open div:
-    insert('<div>')
-
 void:
     insert('void ')
 
@@ -93,3 +90,6 @@ assign false:
 assign <user.format_text>:
     insert(' = ')
     insert(user.format_text)
+
+nothing:
+    insert('null')

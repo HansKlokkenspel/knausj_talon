@@ -195,3 +195,6 @@ open in explorer:
 reformat:
   key(ctrl-k)
   key(ctrl-d)
+
+stopped (the bugging|debugging):
+  key(shift-f5)

@@ -102,7 +102,7 @@ ctx.lists['self.symbol'] = {
     'pound': '#', 'hash': '#', 'hash sign': '#', 'number sign': '#',
     'percent': '%', 'percent sign': '%',
     'caret': '^',
-    'at sign': '@',
+    'at sign': '@', 'monkey': '@',
     'and sign': '&', 'ampersand': '&', 'amper': '&',
     'pipe': '|',
     'dubquote': '"', 'double quote': '"',
