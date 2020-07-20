@@ -1,6 +1,7 @@
 mode: user.javascript
 mode: command 
-and code.language: javascript
+code.language: javascript
+code.language: vue
 -
 tag(): user.code_operators
 tag(): user.code_comment
@@ -55,7 +56,9 @@ action(user.code_state_case): "case :"
 
 action(user.code_state_go_to): ""
 
-action(user.code_import): "import "
+action(user.code_import): 
+  insert('import from ')
+  key(ctrl-left space left)
 
 action(user.code_from_import):
   insert(" from  \"\"")

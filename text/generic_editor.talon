@@ -4,47 +4,46 @@ find it:
 next one:
     edit.find_next()
 
-go word left:
+[go] word left:
     edit.word_left()
 
-go word right:
+[go] word right:
     edit.word_right()
 
-go left:
+[go] left:
     edit.left()
 
-go right:
+[go] right:
     edit.right()
 
-go up:
+[go] up:
     edit.up()
 
-go down:
+[go] down:
     edit.down()
 
-go line start:
+[go] line start:
     edit.line_start()
 
-go line end:
+[go] line end:
     edit.line_end()
 
-go way left:
-    edit.line_start()
+[go] way left:
     edit.line_start()
 
-go way right:
+[go] way right:
     edit.line_end()
 
-go way down:
+[go] way down:
     edit.file_end()
 
-go way up:
+[go] way up:
     edit.file_start()
 
-go page down:
+[go] page down:
     edit.page_down()
 
-go page up:
+[go] page up:
     edit.page_up()
 
 # selecting

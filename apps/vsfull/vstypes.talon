@@ -87,9 +87,22 @@ assign true:
 assign false:
     insert(' = false')
 
+is true:
+    insert(' == true')
+
+is false:
+    insert(' == false')
+
 assign <user.format_text>:
     insert(' = ')
     insert(user.format_text)
 
 nothing:
     insert('null')
+
+type of:
+    insert('typeof()')
+    key(left)
+
+read only:
+    insert('readonly ')

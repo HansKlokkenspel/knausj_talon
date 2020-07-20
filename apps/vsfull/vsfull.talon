@@ -192,6 +192,9 @@ rename:
 open in explorer:
   key(ctrl-shift-alt-=)
 
+adjust namespaces:
+  key(ctrl-shift-alt-a)
+
 reformat:
   key(ctrl-k)
   key(ctrl-d)

@@ -20,7 +20,8 @@ simple_vocabulary = [
     "null",
     "async",
     "set", 
-    "param"
+    "param",
+    "bulma"
 ]
 
 mapping_vocabulary = {

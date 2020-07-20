@@ -5,6 +5,7 @@ app: Microsoft Visual Studio 2019
 app: devenv.exe
 code.language: razor
 code.language: html
+code.language: vue
 -
 open div:
     insert('<div>')
