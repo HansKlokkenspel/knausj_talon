@@ -29,16 +29,10 @@ def FormatText(m: Union[str, Phrase], fmtrs: str):
     else:
         if m.words[-1] == "over":
             m.words = m.words[:-1]
-        try:
-            words = actions.dictate.parse_words(m)
-            words = actions.dictate.replace_words(words)
-        except AttributeError:
-            with clip.capture() as s:
-                edit.copy()
-                words = s.get().split(" ")
-            if not words:
-                return
-    
+
+        words = actions.dictate.parse_words(m)
+        words = actions.dictate.replace_words(words)
+
     return format_text_helper(words, fmtrs)
 
 def format_text_helper(word_list, fmtrs: str):
@@ -97,6 +91,7 @@ formatters_dict = {
     "PRIVATE_CAMEL_CASE": (NOSEP, first_vs_rest(lambda w: w, lambda w: w.capitalize())),
     "PRIVATE_READONLY_CAMEL_CASE": (NOSEP, first_vs_rest(lambda w: "_" + w, lambda w: w.capitalize())),
     "INTERFACE_CASE": (NOSEP, first_vs_rest(lambda w: "I" + w.capitalize(), lambda w: w.capitalize())),
+    "PROTECTED_CAMEL_CASE": (NOSEP, first_vs_rest(lambda w: w, lambda w: w.capitalize())),
     "PUBLIC_CAMEL_CASE": (NOSEP, every_word(lambda w: w.capitalize())),
     "SNAKE_CASE": (NOSEP, first_vs_rest(lambda w: w.lower(), lambda w: "_" + w.lower())),
     "NO_SPACES": (NOSEP, every_word(lambda w: w)),
