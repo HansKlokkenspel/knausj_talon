@@ -38,6 +38,7 @@ ctx.lists["user.abbreviation"] = {
     "define": "def",
     "definition": "def",
     "description": "desc",
+    "destination": "dest",
     "develop": "dev",
     "development": "dev",
     "dictionary": "dict",

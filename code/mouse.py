@@ -198,9 +198,10 @@ def on_pop(active):
             ctrl.mouse_click(button=0, hold=16000)
 
 noise.register('pop', on_pop)
-# def on_pop(_):
-#     ctrl.mouse_click()
-# noise.register("pop", on_pop)
+
+def on_pop(_):
+    ctrl.mouse_click()
+noise.register("pop", on_pop)
     
 def mouse_scroll(amount):
     def scroll():

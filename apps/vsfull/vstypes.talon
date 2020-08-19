@@ -11,7 +11,8 @@ enumeration:
     insert('enum')
 
 [typing] list:
-    insert('List<> ')
+    insert('List<>')
+    key(left)
 
 [typing] bingo:
     insert('bool ')
@@ -61,6 +62,9 @@ void:
 abstract:
     insert('abstract ')
 
+virtual:
+    insert('virtual ')
+
 [typing] task:
     insert('Task ')
 
@@ -106,3 +110,12 @@ type of:
 
 read only:
     insert('readonly ')
+
+action(user.ide_assign_value):
+  insert(' = ')
+
+break:
+    insert('break;')
+
+const:
+    insert('const ')

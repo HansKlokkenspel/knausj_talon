@@ -21,7 +21,17 @@ simple_vocabulary = [
     "async",
     "set", 
     "param",
-    "bulma"
+    "bulma",
+    "buefy",
+    "json",
+    "mock",
+    "header",
+    "headers",
+    "azure",
+    "app",
+    "css",
+    "map",
+    "mapper"
 ]
 
 mapping_vocabulary = {

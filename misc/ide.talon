@@ -220,3 +220,6 @@ select less:
 
 select (more|this):
 	user.ide_select_more()
+
+assign:
+	user.ide_assign_value()

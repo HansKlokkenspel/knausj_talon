@@ -12,3 +12,7 @@ blazor|blazer|laser:
 	insert('blazor ')
 (few|few|view) (jus|jazz|js):
 	insert('vue.js ')
+xios:
+	insert('axios ')
+javascript:
+	insert('javascript ')

@@ -466,5 +466,7 @@ class Actions:
     def ide_toggle_comment():
         """Toggle comment for selected text"""
 
+    def ide_assign_value():
+        """Assign a value"""
 
 

@@ -201,3 +201,28 @@ reformat:
 
 stopped (the bugging|debugging):
   key(shift-f5)
+
+new using:
+  insert('using(var = )')
+  key(left left left left space)
+
+for each:
+  insert('foreach')
+  sleep(100ms)
+  key(tab)
+
+new exception:
+  insert('throw new ')
+
+open lambda:
+  insert(' => ')
+
+for loop:
+  insert('for')
+  sleep(100ms)
+  key(tab)
+
+new while:
+  insert('while')
+  sleep(100ms)
+  key(tab)

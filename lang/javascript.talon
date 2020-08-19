@@ -153,3 +153,18 @@ state reduce:
   key(left)
 
 state spread: "..."
+
+[right|write] (council|console):
+  insert('// eslint-disable-next-line no-console')
+  key(enter)
+  insert('console.log()')
+  key(left)
+
+action(user.ide_assign_value):
+  insert(' = ')
+
+function:
+  insert('function ()')
+
+export:
+  insert('export ')
